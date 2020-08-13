@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseFloat(prompt("nhap a"));
+    let b =parseFloat(prompt("nhap b"));
+    let c =parseFloat(prompt("nhap c"));
+    let delta=parseFloat("b*b-4*a*c");
+    if(a==0) {
+        if(b==0&&c==0){
+            alert("phuong trinh vo so no");
+        } else {
+            alert("phuong trinh vo no");
+        }
+
+    }
+    else if(delta>0){
+        alert(x1=(-b-Math.sqrt(delta))/2*a);
+        alert(x2=(-b+Math.sqrt(delta))/2*a);
+    } if (delta==0){
+        alert(x1=x2=-b/2*a);
+    } else {
+        alert("phuong trinh vo no")
+
+    }
+</script>
+
+</body>
+</html>
